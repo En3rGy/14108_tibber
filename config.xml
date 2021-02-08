@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <modules>
+        <module category="Datenaustausch" context="hsl20_3_tibber" id="14108" name="Tibber (14108)" version="0.01">
+            <inputs>
+				<input type="string" const_name="sToken" init_value="">1 Access Token</input>
+				<input type="number" const_name="nUpdateRate" init_value="0">2 Update-Rate (s)</input>				
+            </inputs>
+            <outputs>
+				<output type="string" const_name="sRply" init_value="0">99 Reply</output>					
+            </outputs>
+			<remanent_variables>
+            </remanent_variables>
+            <imports>
+            </imports>		
+        </module>	
+    </modules>
+</config>
