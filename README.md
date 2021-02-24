@@ -19,7 +19,7 @@ Logic module for Gira Homeserver to interact with a [Tibber](https://www.tibber.
 ## Other
 
 - Recalculation during start: no
-- MModule is retentive: no
+- Module is retentive: no
 - Internal designation: 14108
 - Category: Datenaustausch
 
@@ -43,7 +43,10 @@ Code and releases are availabe via [github](https://github.com/En3rGy/14108_tibb
 
 ### Devleopment Environment
 
-- [Python 2.7](https://www.python.org/download/releases/2.7/)
+### Devleopment Environment
+
+- [Python 2.7.18](https://www.python.org/download/releases/2.7/)
+    - Install python markdown module (for generating the documentation) `python -m pip install markdown`
 - Python editor [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Gira Homeserver Interface Information](http://www.hs-help.net/hshelp/gira/other_documentation/Schnittstelleninformationen.zip)
 
